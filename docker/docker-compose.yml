@@ -17,7 +17,7 @@ services:
         constraints: [node.role == worker]
 
   web:
-    image: dipesh230904/devops-web:latest
+    image: krishna230904/devops-web:latest
     environment:
       - DATABASE_URL=postgresql://postgres:postgres@db:5432/postgres
     ports:
